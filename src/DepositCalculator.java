@@ -12,7 +12,7 @@ public class DepositCalculator {
 
     double round(double value, int places) {
         double scaLe = Math.pow(10, places);
-        return Math.round(value * scaLe)/scaLe;
+        return Math.round(value * scaLe)/scaLe; //лучше отделять пробелами оператор "/"
     }
 
     void printResults() {
